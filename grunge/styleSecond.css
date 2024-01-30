@@ -1,0 +1,246 @@
+@font-face 
+{
+  font-family: Oswald; 
+  src: url(Oswald.ttf); 
+}
+
+@font-face 
+{
+    font-family: 'Bebas Neue Cyrillic'; 
+  src: url(Bebas\ Neue\ Cyrillic.ttf); 
+}
+
+@font-face 
+{
+  font-family: 'Bebas Neue Regular'; 
+  src: url(BebasNeue-Regular.ttf); 
+}
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+html,
+body{
+	height: 100%;
+	font-family: 'Oswald';
+    color: #000;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    /* max-width: 1440px;
+    overflow-y: scroll;
+    overflow-x: hidden; */
+}
+
+.header__menu{
+    position: absolute;
+    z-index: 100;
+    width: 1200px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.header__list{
+    font-family: 'Oswald';
+    font-size: 18px;
+    height: 18px;
+	list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list li{
+    padding: 5px 0px;
+}
+
+.header__link{
+    color: #fff;
+	text-decoration: none;
+}
+
+.brush3{
+    position: absolute;
+    width: 1739px;
+    
+    height: 1177px;
+    background-image: url('img/brush3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+    left: 500px;
+    top: -450px;
+}
+
+
+.tour-name{
+    position: absolute;
+    z-index: 25;
+    top: 130px;
+    left: 110px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 380px;
+    color: #fff;
+}
+
+.tour-cena{
+    position: absolute;
+    z-index: 25;
+    left: 110px;
+    top: 500px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 100px;
+    color: #fff;
+}
+
+.tour-dates{
+    position: absolute;
+    z-index: 25;
+    left: 110px;
+    top: 650px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 100px;
+    color: #fff;
+}
+
+.paris-image{
+    position: absolute;
+    width: 835px;
+    height: 507px;
+    background-image: url('img/paris-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 50;
+    left: 50%;
+    transform: translateX(-50%) rotate(-12deg);
+    top: 800px;
+}
+
+.tour-program{
+    position: absolute;
+    z-index: 25;
+    left: 110px;
+    top: 1450px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 100px;
+    color: #fff;
+}
+
+.day-one{
+    position: absolute;
+    z-index: 25;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1620px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 120px;
+    color: #fff;
+}
+
+.day-one-info{
+    position: absolute;
+    z-index: 25;
+    width: 1220px;
+    left: 110px;
+    top: 1800px;
+    font-family: 'Oswald';
+    font-size: 30px;
+    color: #FC890C;
+}
+
+.day-two{
+    position: absolute;
+    z-index: 25;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2070px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 120px;
+    color: #fff;
+}
+
+.day-two-info{
+    position: absolute;
+    z-index: 25;
+    left: 110px;
+    width: 1200px;
+    top: 2250px;
+    font-family: 'Oswald';
+    font-size:30px;
+    color: #FC890C;
+}
+
+.footer-img{
+    position: absolute;
+    z-index: 30;
+    top: 2350px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 2900px;
+    height: 816px;
+    background-image: url('img/footer-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu{
+    position: absolute;
+    z-index: 100;
+    top: 2700px;
+    left: 1195px;
+}
+
+.footer__list img{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.footer__list li{
+    margin-bottom: 10px;
+}
+
+.footer__list li a{
+    color:#000;
+}
+

@@ -1,0 +1,285 @@
+@font-face 
+{
+  font-family: Oswald; 
+  src: url(Oswald.ttf); 
+}
+
+@font-face 
+{
+    font-family: 'Bebas Neue Cyrillic'; 
+  src: url(Bebas\ Neue\ Cyrillic.ttf); 
+}
+
+@font-face 
+{
+  font-family: 'Bebas Neue Regular'; 
+  src: url(BebasNeue-Regular.ttf); 
+}
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+html,
+body{
+    max-width: 1440px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+	height: 100%;
+	font-family: 'Oswald';
+    color: #000;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+}
+
+.header__menu{
+    position: absolute;
+    z-index: 100;
+    width: 1200px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.header__list{
+    font-family: 'Oswald';
+    font-size: 18px;
+    height: 18px;
+	list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list li{
+    padding: 5px 0px;
+}
+
+.header__link{
+    color: #000;
+	text-decoration: none;
+}
+
+.white-crumpled-paper{
+    position: absolute;
+    width: 1923px;
+    height: 1282px;
+    background-image: url('img/white-crumpled-paper.jpg');
+    background-repeat: no-repeat;
+    left: 447px;
+    top: -400px;
+    transform: rotate(8deg);
+    z-index: 10;
+
+}
+
+.stripped-paper{
+    left: -350px;
+    top: -300px;
+    position: absolute;
+    background-image: url('img/stripped-paper.png');
+    background-repeat: no-repeat;
+    width: 1230px;
+    height: 1013px;
+    transform: rotate(-104.5deg);
+    z-index: 20;
+}
+
+.woman{
+    position: absolute;
+    width: 1510px;
+    height: 1008px;
+    background-image: url('img/woman.png');
+    background-repeat: no-repeat;
+    z-index: 30;
+    top: 150px;
+}
+
+.chess-board-background{
+    position: absolute;
+    width: 1285px;
+    height: 1285px;
+    background-image: url('img/chess-board-background.png');
+    background-repeat: no-repeat;
+    z-index: 0;
+    transform: rotate(30deg);
+    left: 550px;
+    top: 300px;
+}
+
+.brush1{
+    position: absolute;
+    width: 1207px;
+    height: 427px;
+    background-image: url('img/brush1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 40;
+    transform: rotate(-150deg);
+    left: 453px;
+    top: 1120px;
+}
+
+.circle{
+    position: absolute;
+    width: 755px;
+    height: 550px;
+    background-image: url('img/circle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 50;
+    left: 10px;
+    top: 1320px;
+}
+
+.paris-card{
+    position: absolute;
+    width: 835px;
+    height: 506px;
+    background-image: url('img/parisCard.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 50;
+    left: 160px;
+    top: 2000px;
+    transform: rotate(-12deg);
+}
+
+
+.rome-card{
+    position: absolute;
+    width: 600px;
+    height: 363px;
+    background-image: url('img/romeCard.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 50;
+    left: 700px;
+    top: 2170px;
+    transform: rotate(16deg);
+}
+.brush2{
+    position: absolute;
+    width: 1423;
+    height: 670px;
+    background-image: url('img/brush_trial.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 60;
+    left: -200px;
+    top: 2950px;
+}
+
+.site-name{
+    position: absolute;
+    z-index: 25;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Bebas Neue Regular';
+    font-size: 380px;
+    color: #FC890C;
+}
+
+.about-us{
+    position: absolute;
+    z-index: 60;
+    left: 110px;
+    top: 1500px;
+    transform: rotate(20deg);
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 300px;
+    color: #fff;
+}
+
+.about-us-info{
+    position: absolute;
+    font-family: Oswald;
+    font-size: 24px;
+    color: #FC890C;
+    width: 210px;
+    z-index: 200;
+    left: 120px;
+    top: 870px;
+}
+.best{
+    position: absolute;
+    z-index: 70;
+    transform: rotate(-15deg);
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 300px;
+    color: #fff;
+    left: 180px;
+    top: 2650px;
+}
+
+.tours{
+    position: absolute;
+    z-index: 70;
+    transform: rotate(-15deg);
+    font-family: 'Bebas Neue Cyrillic';
+    font-size: 300px;
+    color: #fff;
+    left: 800px;
+    top: 2850px;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu{
+    position: absolute;
+    z-index: 100;
+    left: 120px;
+    top: 3220px;
+}
+
+.footer__list img{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.footer__list li{
+    margin-bottom: 10px;
+}
+
+.footer__list li a{
+    color:#000;
+}
